@@ -1,0 +1,15 @@
+#Following scrips copied from Data School / named on Facebook
+
+import random
+
+lower = "abcdefghijklmnopqrstuvwxyz"
+upper = "ABCDEFGHIJKLMNOPQRSTUVWXYS"
+numbers = "0123456789"
+symbols = "!@#$%^&*()_+"
+
+all = lower + upper + numbers + symbols
+
+length = 12
+password = "".join(random.samle(all, length))
+
+print(password)
