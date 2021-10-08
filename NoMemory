@@ -1,4 +1,4 @@
-#Following scrips copied from Data School / named on Facebook
+#Following script copied from Data School / named on Facebook
 
 import random
 
@@ -10,6 +10,13 @@ symbols = "!@#$%^&*()_+"
 all = lower + upper + numbers + symbols
 
 length = 12
-password = "".join(random.samle(all, length))
+FB_password = str('Facebook password') + str(' : ') + "".join(random.sample(all, length))
+Insta_password = str('Instagram password') + str(' : ') + "".join(random.sample(all, length))
+Linkedin_password = str('Linkedin password') + str(' : ') + "".join(random.sample(all, length))
+Twtr_password = str('Twitter password') + str(' : ') + "".join(random.sample(all, length))
 
-print(password)
+print('Remember to update your password every month')
+print(FB_password)
+print(Insta_password)
+print(Linkedin_password)
+print(Twtr_password)
